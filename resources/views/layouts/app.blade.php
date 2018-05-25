@@ -22,6 +22,9 @@
                         <a href="{{ url('/') }}" class="no-underline">
                             {{ config('app.name', 'Laravel') }}
                         </a>
+                        <a href="{{ url('/cards') }}" class="no-underline">
+                            {{ 'Cards' }}
+                        </a>
                     </div>
                     <div class="flex-1 text-right">
                         @guest

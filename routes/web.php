@@ -19,6 +19,6 @@ Auth::routes();
 Route::get('/home', 'HomeController@index')->name('home');
 
 
-Route::get('/proves', function(){
+Route::get('/cards', function(){
     return view('proves');
 });
